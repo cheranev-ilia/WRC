@@ -92,8 +92,8 @@
 			</Grid>
 		</TabItem>
 		<TabItem Header="Request" VerticalContentAlignment="Center" FontSize="15">
-			<Grid RowDefinitions="*,50" ColumnDefinitions="3*,*" ShowGridLines="False" MinWidth="500" Background="LightGray" Margin="0,0,0,10">
-				<ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" Background="LightGray" Margin="0,0,0,10">
+			<Grid RowDefinitions="*,50" ColumnDefinitions="3*,*" ShowGridLines="False" MinWidth="500" Background="Black" Margin="0,0,0,10">
+				<ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" Background="Black" Margin="0,0,0,10">
 					<DataGrid Items="{Binding Items}" AutoGenerateColumns="false" Name="RequestGrid" ColumnWidth="108"
 							  HorizontalAlignment="Stretch" VerticalAlignment="Top">
 						<DataGrid.Columns>
@@ -119,7 +119,7 @@
 						FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
 				<StackPanel Grid.Column="1" Grid.Row="0" Grid.RowSpan="4">
 					<TextBlock Text="Requests:" FontSize="16" Margin="5"/>
-					<ListBox Margin="0,4,0,0" Background="#E8E8E8" MinHeight="406" IsHitTestVisible="False"
+					<ListBox Margin="0,4,0,0" Background="Black" MinHeight="406" IsHitTestVisible="False"
 							  BorderThickness="1" BorderBrush="#696969">12345</ListBox>
 
 				</StackPanel>
